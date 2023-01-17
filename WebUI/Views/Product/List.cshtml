@@ -1,0 +1,16 @@
+﻿@using Abststract.common.Entities
+@model ProductsListViewModel
+
+
+@{
+    ViewBag.Title = "Товары";
+}
+
+@foreach (var p in @Model.Products)
+{
+        <div>
+            <h3>@p.Name</h3>
+            <p>@p.Description</p>
+            <h4>@p.Price.ToString("# EUR")</h4>
+        </div>
+}

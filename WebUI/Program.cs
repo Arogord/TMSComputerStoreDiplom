@@ -1,9 +1,24 @@
+using Abststract.common.Abstract;
+using AppLogic.bll.Service;
+using DBWorker.dal.EF;
+using System;
+
 var builder = WebApplication.CreateBuilder(args);
+
+//подключаем конфиг из appsetting.json
+builder.Configuration.Bind("Project", new Config());
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddTransient<IProductRepository, ProductRepository>();
+//подключаем контекст БД
+//builder.Configuration.Add
+//builder.Services.AddDbContext<AppDbContext>(x => x.UseSqlServer(Config.ConnectionString));
+//builder.AddDbContext<AppDbContext>(x => x.UseSqlServer(Config.ConnectionString));
+//builder.Services.Add
 var app = builder.Build();
+
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -22,6 +37,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Product}/{action=List}/{id?}");
 
 app.Run();

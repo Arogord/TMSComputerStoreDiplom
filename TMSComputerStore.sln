@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI", "WebUI\WebUI.csproj", "{81DD03E3-56E2-4CC3-BF5D-0AAC00D04CC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebUI", "WebUI\WebUI.csproj", "{81DD03E3-56E2-4CC3-BF5D-0AAC00D04CC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abststract.common", "Abststract.common\Abststract.common.csproj", "{B5000085-0889-4553-9733-9E8A59310F1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abststract.common", "Abststract.common\Abststract.common.csproj", "{B5000085-0889-4553-9733-9E8A59310F1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLogic.bll", "AppLogic.bll\AppLogic.bll.csproj", "{A91CA8C0-BC3F-48AB-AC80-EF6AE5050DAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppLogic.bll", "AppLogic.bll\AppLogic.bll.csproj", "{A91CA8C0-BC3F-48AB-AC80-EF6AE5050DAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBWorker.dal", "DBWorker.dal\DBWorker.dal.csproj", "{EF364201-F3BF-4C44-B5A2-342753329309}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBWorker.dal", "DBWorker.dal\DBWorker.dal.csproj", "{EF364201-F3BF-4C44-B5A2-342753329309}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestApp.Tests", "UnitTestApp.Tests\UnitTestApp.Tests.csproj", "{6344D7E4-AEA7-4B4A-B64B-1CCB0C2F1A7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestApp.Tests", "UnitTestApp.Tests\UnitTestApp.Tests.csproj", "{6344D7E4-AEA7-4B4A-B64B-1CCB0C2F1A7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -11,4 +11,8 @@
     <ProjectReference Include="..\DBWorker.dal\DBWorker.dal.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Service\" />
+  </ItemGroup>
+
 </Project>
